@@ -78,8 +78,8 @@ body {
 .img-box::before {
 	z-index: 1;
 	background-image: linear-gradient(
-		30deg,
-		hsl(var(--clr-1a), 1) 20%,
+		20deg,
+		hsl(var(--clr-1a), 1) 50%,
 		hsl(var(--clr-1b), 1) 90%
 	);
 	mix-blend-mode: overlay;
@@ -87,7 +87,7 @@ body {
 }
 
 .img-box::after {
-	background-color: hsla(0, 0%, 0%, 0.25);
+	background-color: hsla(0, 0%, 0%, 0.3);
 }
 
 .image {
